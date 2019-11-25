@@ -1,0 +1,52 @@
+
+	#image{
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		position:relative;
+	}
+	
+	
+	
+	#image	#slide{
+		  width: 100%;
+		  height: 100%;
+		  		  
+		}
+	
+	
+	#prev {
+		  position: absolute;
+		  top: 95px;
+		  left: 0px;
+		  width: 28px;
+		  hegit: 44px;
+		  display: none;
+		  
+		  
+		}
+	
+	#next {
+		  position: absolute;
+		  top: 95px;
+		  right: 0px;
+		  width: 28px;
+		  hegit: 44px;
+		  display: none;
+		  
+		  
+		}
+	
+	#image:hover #prev {
+		  display: block;
+		  opacity: 0.6;
+		} 
+	
+	#image:hover #next {
+		  display: block;
+		  opacity: 0.6;
+		} 
+/* CSS Document */
+
+
+

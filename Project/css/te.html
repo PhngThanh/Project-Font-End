@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<style>
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+margin-left: -5px;
+  
+  position: relative;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu li {
+  display: none;
+  margin:0 auto;
+}
+
+
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+
+#menu li:hover .sub-menu {
+ display: block;
+}
+
+.sub-menu li {
+margin:0 auto;
+}
+
+</style>
+<body>
+
+<div id="menu">
+  <ul>
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#">Diễn đàn</a></li>
+    <li><a href="#">Tin tức</a>
+      <ul class="sub-menu">
+        <li><a href="#">WordPress</a></li>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">Hosting</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Hỏi đáp</a></li>
+    <li><a href="#">Liên hệ</a></li>
+  </ul>
+</div>
+</body>
+</html>

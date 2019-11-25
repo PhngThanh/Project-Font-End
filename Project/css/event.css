@@ -1,0 +1,71 @@
+/* CSS Document */
+
+		body {
+			background:url(../image/sub/September-7-Apple-Media-Event-Wallpaper-Apple-Invite-iPad.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+			margin: 0px;
+		}
+		
+		.topleft {
+    		position: fixed;
+    		top: -10px;
+    		left: 16px;
+		}
+		
+		#title1 {
+			font-family: 'Fredericka the Great', cursive;
+			font-size: 3em;
+			display: inline-block;
+			box-sizing: border-box;
+			color: white;
+		}
+		
+		.middle {
+    		position: fixed;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%);
+    		text-align: center;
+			color: white;
+    		font-family: 'Fredoka One', cursive;
+			font-size: 3em;
+		}
+		
+		hr {
+    		margin: auto;
+    		width: 40%;
+			
+		}
+		
+		.countdown {
+			font-size: 4em;
+			font-family: 'Chewy', cursive;
+		}
+		
+		.bottomleft {
+    		position: fixed;
+			bottom: 10px;
+    		left: 16px;
+    		font-family: 'Khand', sans-serif;
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+		
+		a:link {
+			text-decoration: none;
+			color: white;
+		}
+		
+		a:hover {
+			cursor: pointer;
+			text-decoration: none;
+		}
+		
+		a:visited {
+			color: white;
+			text-decoration: underline;
+		}

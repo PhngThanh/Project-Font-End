@@ -1,0 +1,32 @@
+/* CSS Document */
+/* Chuan hinh anh */
+		
+		@media screen and (max-width: 1240px) {
+		
+		}
+		
+		@media screen and (max-width: 868px) {
+			body { width:100%;}
+			aside { height:600px;}
+			article { width:100%; float:none;}
+			footer{ width:100%; overflow:scroll}
+			footer .xxx{border-bottom: none; border-top: solid #C8C3C3 2px; width: 100%; margin-top: 10px;}
+			.nav .subMenu a{font-size: 50%}
+			
+				
+		}
+		
+		@media screen and (max-width: 768px) {
+			body { width:100%;}
+			article { width:100%; float:none;}
+			aside { width:100%; float:none;}
+			.middle {width:50%; float:none;}
+			footer{ width:100%; overflow:scroll}
+			footer .xxx{border-bottom: none; border-top: solid #C8C3C3 2px; width: 100%; margin-top: 10px;}
+			.nav .subMenu a{font-size: 50%}
+		
+
+		}
+
+
+

@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SHOWROOM</title>
+	<style>
+		body {
+			background:url(file:///D|/FPT/SE1309_CN2/PRO_201/Project/image/background.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+			margin: 0px;
+		}
+		
+		.topleft {
+    		position: fixed;
+    		top: -10px;
+    		left: 16px;
+		}
+		
+		#title1 {
+			font-family: "#9Slide05 Agile Script Calligra";
+			font-size: 3em;
+			display: inline-block;
+			box-sizing: border-box;
+			color: white;
+		}
+		
+		.middle {
+    		position: fixed;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%);
+    		text-align: center;
+			color: white;
+    		font-family: "Courier New", Courier, monospace;
+			font-size: 3em;
+		}
+		
+		hr {
+    		margin: auto;
+    		width: 40%;
+			
+		}
+		
+		.countdown {
+			font-size: 4em;
+			font-family: "Courier New", Courier, monospace;
+		}
+		
+		.bottomleft {
+    		position: fixed;
+			bottom: 10px;
+    		left: 16px;
+    		font-family: "Courier New", Courier, monospace;
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+		
+		a:link {
+			text-decoration: none;
+			color: white;
+		}
+		
+		a:hover {
+			cursor: pointer;
+			text-decoration: none;
+		}
+		
+		a:visited {
+			color: white;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="bgimg">
+  		<div class="topleft">
+    		<h1 id="title1">Calligraphy</h1>
+  		</div>
+   		<div class="middle">
+    		<h1>COMING SOON</h1>
+    		<hr>
+    		<p id="countdown"></p>
+  		</div>
+  		<div class="bottomleft">
+    		<a href="Home.html" target="_top">Back to Home</a>
+  		</div>
+	</div>
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("Dec 31, 2018 00:00:00").getTime();
+		// Update the count down every 1 second
+		var countdownfunction = setInterval(function() {
+
+    		// Get todays date and time
+    		var now = new Date().getTime();
+    
+    		// Find the distance between now and the count down date
+    		var distance = countDownDate - now;
+    
+    		// Time calculations for days, hours, minutes and seconds
+    		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    		// Output the result in an element
+    		document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    
+    		// If the count down is over, write some text 
+    		if (distance < 0) {
+        		clearInterval(countdownfunction);
+        		document.getElementById("countdown").innerHTML = "EXPIRED";
+    		}
+		}, 1000);
+	</script>
+</body>
+</html>

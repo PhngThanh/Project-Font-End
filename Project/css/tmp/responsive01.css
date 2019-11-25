@@ -1,0 +1,24 @@
+		/* CSS Document */
+		@media screen and (max-width: 1240px) {
+			
+		}
+		
+		@media screen and (max-width: 868px) {
+			
+		}
+		
+		@media screen and (max-width: 768px) {
+			.nav .box2 p{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 130%;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+		.nav .box2 h1{
+		display:none;
+}
+		}
+
+
+

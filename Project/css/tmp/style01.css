@@ -1,0 +1,114 @@
+		/* CSS Document */
+		body {
+				max-width:1240px;
+				margin:0 auto;
+				height:auto;
+		}
+		
+		header {
+				width:100%;
+				height:180px;
+		}
+		
+		nav { 
+				width:100%;
+				height:30px;
+				background-color:#F90;
+		}
+		nav a {
+				color:#FFF;
+				font-weight:bold;
+				font-size:18px;
+				text-decoration:none;
+				width:18%;
+				height:30px;
+				text-align:center;
+				float:left;
+				line-height:30px;
+		}
+		nav a:hover {
+				color:#F36;
+				background-color:#FFC;
+		}
+
+		article { 
+				width:69.7%;
+				max-height:398px;
+				float:left;
+		}
+		article #content {
+				background:#669966;
+				width:100%;
+				float:left;
+		}
+		article #content div { 
+				background:#FFFFFF;
+				float:left;
+				width:29%;
+		}
+		article #content div p {
+				color:#00F;
+				text-align:center;
+				margin:0px;
+				font-size:80%;	
+		}		
+		article #content div p del {
+				color:#666;
+		}
+		
+		aside { 
+				width:30.3%;
+				height:398px;	
+				background-color:#366;					
+				color:#FFF;
+				float:right;
+				overflow:auto;
+		}
+		
+		aside div { 		
+				margin-bottom:0px;
+		}
+		
+		aside div h4 { 
+				width:100%;
+				color:#FFF;
+				background-color:#060;
+				height:28px;
+				margin:0px;
+				text-align:center;
+				line-height:28px;
+		}
+		
+		aside div table { 
+				width:100%;
+		}
+		
+		aside div table tr { 
+				width:100%;
+		}
+		
+		aside div table .td1 { 
+				width:35%;
+		}
+		
+		aside div table .td2 { 
+				text-align: justify;
+				font-size:80%;
+				width:65%;
+		}
+		
+		footer {
+				clear:both;	
+				width:100%;
+				height:180px;
+				background-color:#456;
+				color:#FFF;
+				padding-top:10px;
+		}
+		
+		
+
+
+
+
+
